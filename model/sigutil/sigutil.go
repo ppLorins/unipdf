@@ -9,7 +9,7 @@
 // Use of this source code is governed by the UniDoc End User License Agreement
 // terms that can be accessed at https://unidoc.io/eula/
 
-package sigutil ;import (_c "bytes";_e "crypto";_ag "crypto/x509";_g "encoding/asn1";_ee "encoding/pem";_eg "errors";_b "fmt";_aee "github.com/unidoc/timestamp";_aa "github.com/unidoc/unipdf/v3/common";_cg "golang.org/x/crypto/ocsp";_ae "io";_egc "io/ioutil";_cd "net/http";_f "time";);
+package sigutil ;import (_c "bytes";_e "crypto";_ag "crypto/x509";_g "encoding/asn1";_ee "encoding/pem";_eg "errors";_b "fmt";_aee "github.com/pplorins/timestamp";_aa "github.com/pplorins/unipdf/v3/common";_cg "golang.org/x/crypto/ocsp";_ae "io";_egc "io/ioutil";_cd "net/http";_f "time";);
 
 // MakeRequest makes a CRL request to the specified server and returns the
 // response. If a server URL is not provided, it is extracted from the certificate.

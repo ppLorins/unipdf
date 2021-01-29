@@ -10,7 +10,7 @@
 // terms that can be accessed at https://unidoc.io/eula/
 
 // Package license helps manage commercial licenses and check if they are valid for the version of unipdf used.
-package license ;import _ad "github.com/unidoc/unipdf/v3/internal/license";
+package license ;import _ad "github.com/pplorins/unipdf/v3/internal/license";
 
 // LicenseKey represents a loaded license key.
 type LicenseKey =_ad .LicenseKey ;

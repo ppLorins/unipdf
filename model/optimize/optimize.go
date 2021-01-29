@@ -9,7 +9,7 @@
 // Use of this source code is governed by the UniDoc End User License Agreement
 // terms that can be accessed at https://unidoc.io/eula/
 
-package optimize ;import (_f "bytes";_e "crypto/md5";_bf "errors";_c "fmt";_ee "github.com/unidoc/unipdf/v3/common";_fb "github.com/unidoc/unipdf/v3/contentstream";_ge "github.com/unidoc/unipdf/v3/core";_bc "github.com/unidoc/unipdf/v3/extractor";_ec "github.com/unidoc/unipdf/v3/internal/textencoding";_a "github.com/unidoc/unipdf/v3/model";_cf "github.com/unidoc/unitype";_gb "golang.org/x/image/draw";_b "image";_gc "math";);
+package optimize ;import (_f "bytes";_e "crypto/md5";_bf "errors";_c "fmt";_ee "github.com/pplorins/unipdf/v3/common";_fb "github.com/pplorins/unipdf/v3/contentstream";_ge "github.com/pplorins/unipdf/v3/core";_bc "github.com/pplorins/unipdf/v3/extractor";_ec "github.com/pplorins/unipdf/v3/internal/textencoding";_a "github.com/pplorins/unipdf/v3/model";_cf "github.com/pplorins/unitype";_gb "golang.org/x/image/draw";_b "image";_gc "math";);
 
 // CleanFonts cleans up embedded fonts, reducing font sizes.
 type CleanFonts struct{

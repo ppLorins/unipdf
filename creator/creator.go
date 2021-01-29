@@ -14,7 +14,7 @@
 // It is built on top of the model package to provide access to the most common
 // operations such as creating text and image reports and manipulating existing pages.
 //
-package creator ;import (_e "bytes";_c "errors";_f "fmt";_gd "github.com/unidoc/unipdf/v3/common";_gg "github.com/unidoc/unipdf/v3/contentstream";_gf "github.com/unidoc/unipdf/v3/contentstream/draw";_fc "github.com/unidoc/unipdf/v3/core";_ba "github.com/unidoc/unipdf/v3/internal/license";_be "github.com/unidoc/unipdf/v3/internal/transform";_a "github.com/unidoc/unipdf/v3/model";_eb "image";_dc "io";_bb "math";_cc "os";_b "sort";_g "strconv";_bd "strings";_ga "unicode";);
+package creator ;import (_e "bytes";_c "errors";_f "fmt";_gd "github.com/pplorins/unipdf/v3/common";_gg "github.com/pplorins/unipdf/v3/contentstream";_gf "github.com/pplorins/unipdf/v3/contentstream/draw";_fc "github.com/pplorins/unipdf/v3/core";_ba "github.com/pplorins/unipdf/v3/internal/license";_be "github.com/pplorins/unipdf/v3/internal/transform";_a "github.com/pplorins/unipdf/v3/model";_eb "image";_dc "io";_bb "math";_cc "os";_b "sort";_g "strconv";_bd "strings";_ga "unicode";);
 
 // SetMargins sets the margins TOC line.
 func (_bdfd *TOCLine )SetMargins (left ,right ,top ,bottom float64 ){_bdfd ._abcc =left ;_bfafg :=&_bdfd ._cabdd ._gggf ;_bfafg .Left =_bdfd ._abcc +float64 (_bdfd ._fced -1)*_bdfd ._gfgc ;_bfafg .Right =right ;_bfafg .Top =top ;_bfafg .Bottom =bottom ;};

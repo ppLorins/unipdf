@@ -20,7 +20,7 @@
 // be converted to a string for embedding in a PDF file.
 //
 // The contentstream package uses the core and model packages.
-package contentstream ;import (_d "bufio";_gc "bytes";_a "encoding/hex";_cc "errors";_af "fmt";_dd "github.com/unidoc/unipdf/v3/common";_bg "github.com/unidoc/unipdf/v3/core";_aff "github.com/unidoc/unipdf/v3/internal/imageutil";_ce "github.com/unidoc/unipdf/v3/internal/transform";_gb "github.com/unidoc/unipdf/v3/model";_fg "image/color";_b "image/jpeg";_g "io";_gf "math";_f "strconv";);
+package contentstream ;import (_d "bufio";_gc "bytes";_a "encoding/hex";_cc "errors";_af "fmt";_dd "github.com/pplorins/unipdf/v3/common";_bg "github.com/pplorins/unipdf/v3/core";_aff "github.com/pplorins/unipdf/v3/internal/imageutil";_ce "github.com/pplorins/unipdf/v3/internal/transform";_gb "github.com/pplorins/unipdf/v3/model";_fg "image/color";_b "image/jpeg";_g "io";_gf "math";_f "strconv";);
 
 // NewContentStreamProcessor returns a new ContentStreamProcessor for operations `ops`.
 func NewContentStreamProcessor (ops []*ContentStreamOperation )*ContentStreamProcessor {_dgeaa :=ContentStreamProcessor {};_dgeaa ._cdeb =GraphicStateStack {};_fgac :=GraphicsState {};_dgeaa ._gbba =_fgac ;_dgeaa ._ecfc =[]handlerEntry {};_dgeaa ._ebgc =0;_dgeaa ._acb =ops ;return &_dgeaa ;};
