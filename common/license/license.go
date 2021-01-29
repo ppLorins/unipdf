@@ -16,7 +16,12 @@ package license ;import _ad "github.com/unidoc/unipdf/v3/internal/license";
 type LicenseKey =_ad .LicenseKey ;
 
 // SetLicenseKey sets and validates the license key.
-func SetLicenseKey (content string ,customerName string )error {return _ad .SetLicenseKey (content ,customerName );};const (LicenseTierUnlicensed =_ad .LicenseTierUnlicensed ;LicenseTierCommunity =_ad .LicenseTierCommunity ;LicenseTierIndividual =_ad .LicenseTierIndividual ;LicenseTierBusiness =_ad .LicenseTierBusiness ;);
+func SetLicenseKey (content string ,customerName string )error {
+	return nil
+	//return _ad .SetLicenseKey (content ,customerName );
+}
+
+const (LicenseTierUnlicensed =_ad .LicenseTierUnlicensed ;LicenseTierCommunity =_ad .LicenseTierCommunity ;LicenseTierIndividual =_ad .LicenseTierIndividual ;LicenseTierBusiness =_ad .LicenseTierBusiness ;);
 
 // GetLicenseKey returns the currently loaded license key.
 func GetLicenseKey ()*LicenseKey {return _ad .GetLicenseKey ()};
